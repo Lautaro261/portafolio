@@ -1,0 +1,19 @@
+.white{
+   color: #ececec;
+}
+
+.black{
+    color: #121410;
+}
+
+.conoceme{
+    background-color: #6d8654;
+    color:#ececec;
+    border-radius: 7px;
+    border: 1px solid #ececec;
+}
+
+.conoceme:hover{
+    background-color: #2d3822;
+    border: none;
+}

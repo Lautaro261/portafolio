@@ -1,22 +1,19 @@
-const Inicio =()=>{
+import style from "./inicio.module.css";
 
-    return(
-        <div>
-            <div>
-                <h1>EN PROCESO... </h1>
-                <h4>Hola, me llamo </h4>
-                <h4>Nahuel Lautaro Torres Loretto</h4>
-                <h4>y soy</h4>
-                <h4>Desarrollador web Full stack </h4>
-            </div>
-            <div>
-                <p>*aqui va foto</p>
-            </div>
-            <button>Conóceme</button>
-            
-        </div>
-    )
+const Inicio = () => {
+  return (
+    <div>
+      <div>
+        <h1 className={style.white}>Hola, me llamo<span className={style.black}> Nahuel Lautaro</span></h1>
+        <h1 className={style.black}>Torres Loretto<span className={style.white}> y soy</span></h1>
+        <h1 className={style.white}>Desarrollador<span className={style.black}> web full stack<span className={style.white}>.</span></span></h1>
+      </div>
+      <div>
+        <p>*aqui va foto</p>
+      </div>
+      <button className={style.conoceme}>Conóceme</button>
+    </div>
+  );
+};
 
-}
-
-export default  Inicio;
+export default Inicio;
