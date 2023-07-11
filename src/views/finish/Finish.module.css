@@ -1,0 +1,12 @@
+.fondo{
+    background-image: url('../../image/plantita.jpg');
+   background-size:cover;
+   /* background-size: cover; */ /* Cambia esta propiedad */
+   background-repeat: no-repeat;
+   background-position: center;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items:flex-start;
+   
+}
