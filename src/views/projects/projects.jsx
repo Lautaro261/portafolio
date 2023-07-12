@@ -5,21 +5,21 @@ import style from "./projects.module.css";
 const Projects =()=>{
     const data=[
         {
-            image: '/src/image/paby.PNG',
+            image: '../../image/paby.PNG',
             repo: 'repolink.com',
             deploy:'deploylink.com',
             title: 'PABY',
             description:'De “La colección Verde” de 2020'
         },
         {
-            image: '/src/image/tecno.PNG',
+            image: '../../../public/tecno.PNG',
             repo: 'gitlink.com',
             deploy:'deploylink.com',
             title: 'TECNO CAMP',
             description:'este es un proyecto muy lindo'
         },
         {
-            image: '/src/image/pokemon.PNG',
+            image: '/public/pokemon.PNG',
             repo: 'gitlink.com',
             deploy:'deploylink.com',
             title: 'PI POKEMONS',
