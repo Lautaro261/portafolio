@@ -1,10 +1,13 @@
 import style from './card.module.css'; 
-const Card =()=>{
-
+const Card =({image, repo, deploy, title, description})=>{
+/* console.log(repo) */
     return(
         <div className={style.containerCard}>
-            <h3>Soy una card</h3>
-            <p>Aqui va imagen</p>
+            <img className={style.img} src={image}/>
+            <h3>{title}</h3>
+            <p>{description}</p>
+            <button>{repo}</button>
+            <button>{deploy}</button>
             
         </div>
     )

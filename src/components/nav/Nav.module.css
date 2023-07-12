@@ -1,0 +1,17 @@
+.nav{
+    background-color: #58753d;
+   /*  backdrop-filter: blur(10px); */
+    color: #ebe4d2;
+}
+
+.nav p {
+    color: #ebe4d2;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.nav p:hover{
+    color: #121410;
+}
