@@ -2,14 +2,20 @@
     background-color: #58753d;
    /*  backdrop-filter: blur(10px); */
     color: #ebe4d2;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20vw;
+    padding-right: 20vw;
 }
 
 .nav p {
     color: #ebe4d2;
     font-family: 'Lato', sans-serif;
+    /* font-weight:lighter; */
     text-decoration: none;
+    letter-spacing: 0.1vw;
     display: inline-block;
-    margin-right: 10px;
+   /*  margin-right: 8vw; */
 }
 
 .nav p:hover{

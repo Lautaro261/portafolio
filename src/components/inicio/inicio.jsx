@@ -12,10 +12,10 @@ const Inicio = () => {
         <h1 className={style.black}>web  full  stack<span className={style.white}>.</span></h1>
       </div>
       <div className={style.div2}>
-        <img className={style.img} src='/src/image/20230313_221439.jpg'/>
+        <img className={style.img} src='/src/image/Imagen de WhatsApp 2023-07-18 a las 19.31.48.jpg'/>
       </div>
       <div className={style.div3}>
-      <button className={style.conoceme}>Conóceme</button>
+      <button className={style.conoceme}>CONOCEME ▼ </button>
       </div>
     </div>
   );

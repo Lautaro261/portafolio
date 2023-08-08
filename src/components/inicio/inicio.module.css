@@ -18,14 +18,21 @@
 }
 
 .conoceme{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    letter-spacing: 0.1vw;
     background-color: #6d8654;
     color:#ececec;
-    border-radius: 7px;
-    border: 1px solid #ececec;
+    border-radius: 12px;
+    border: 2px solid #ececec;
+    margin-top: 1.2vw;
+    margin-bottom: 1.2vw;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
 }
 
 .conoceme:hover{
-    background-color: #2d3822;
+    background-color: #58753d;
     border: none;
 }
 
@@ -47,9 +54,12 @@
  }
 .div3 { 
     grid-area: 9 / 2 / 10 / 6;
-    border: 1px solid red;
+    border: 1px solid rgb(97, 31, 31);
+    display: flex;
+    justify-content: center;
+    
  }
  .img{
-    max-width: 18vw;
+    max-width: 40vw;
     border: 5px solid #121410;
  }

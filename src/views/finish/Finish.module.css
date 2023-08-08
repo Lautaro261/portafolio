@@ -1,12 +1,40 @@
-.fondo{
+.parent {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
     background-image: url('../../image/plantita.jpg');
-   background-size:cover;
+    background-size:cover;
    /* background-size: cover; */ /* Cambia esta propiedad */
-   background-repeat: no-repeat;
-   background-position: center;
-   height: 100vh;
-   display: flex;
-   justify-content: center;
-   align-items:flex-start;
+ 
    
+    }
+    
+.div1 { 
+    grid-area: 2 / 1 / 5 / 5;
+    border: 1px solid red;
+ }
+.div2 { 
+    grid-area: 4 / 5 / 5 / 8;
+    border: 1px solid red;
+ }
+
+
+.fondo{
+        background-image: url('../../image/plantita.jpg');
+        background-size:cover;
+       /* background-size: cover; */ /* Cambia esta propiedad */
+       background-repeat: no-repeat;
+       background-position: center;
+       height: 100vh;
+       display: flex;
+       justify-content: center;
+       align-items:flex-start;
+       
+}
+    
+.frase{
+        color: #ececec;
+        font-family: 'Manrope', sans-serif;
 }
