@@ -1,37 +1,17 @@
 import Nav from "../../components/nav/Nav";
 import Card from "../../components/card/card"
 import style from "./projects.module.css";
+import dataWeb from "../../data/projectsWeb";
 
 const Projects =()=>{
-    const data=[
-        {
-            image: '../../image/paby.PNG',
-            repo: 'repolink.com',
-            deploy:'deploylink.com',
-            title: 'PABY',
-            description:'De “La colección Verde” de 2020'
-        },
-        {
-            image: '../../../public/tecno.PNG',
-            repo: 'gitlink.com',
-            deploy:'deploylink.com',
-            title: 'TECNO CAMP',
-            description:'este es un proyecto muy lindo'
-        },
-        {
-            image: '/public/pokemon.PNG',
-            repo: 'gitlink.com',
-            deploy:'deploylink.com',
-            title: 'PI POKEMONS',
-            description:'este es un proyecto muy lindo'
-        }
-    ];
 
     return(
         <div className={style.container}>
             <Nav/>
-            <h4>Aqui van mis proyectos</h4>
-            {data.map((p, index)=>{
+            <h4>Proyectos Webs</h4>
+            <div className={style.containerCards}>
+
+            {dataWeb.map((p, index)=>{
                 return (
                     <Card 
                     key={index} 
@@ -43,6 +23,7 @@ const Projects =()=>{
                     />
                 )
             })}
+            </div>
             
         </div>
     )

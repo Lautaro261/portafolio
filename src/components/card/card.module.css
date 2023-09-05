@@ -1,17 +1,55 @@
 .containerCard{
-    border:  3px solid #121410;
+    border:  3px solid #16690f;
     margin: 20px;
+    padding: 0;
+   /*  width: 300px;
+    display: flex;
+    flex-direction: column;   /* AQUI MODIFICO LA DISTRIBUCION DENTRO DE CADA CARD 
     
-}
-.containerCard h3{
-    font-family: 'Bebas Neue', sans-serif;
+    align-items: center;   */ 
+    background-color: #acd8a9;
+   display:  flex;
+   flex-direction: column;
 }
 
-.containerCard p{
+
+.img{
+    max-width: 27vw;
+    border: 4px solid #121410;
+    margin: 0;
+ }
+
+/* ------------------------------------------------Buttons------------------------------------------------ */
+.containerButtons{
+    /* border: 1px solid salmon; */
+    display: flex;
+    justify-content:space-between;
+
+}
+
+.btnRepo{
+    background-color: #121410;
+    color: aliceblue;
+    border: none;
+}
+
+
+.btnDep{
+
+}
+
+
+
+ /* ---------------------------------------------------TEXT----------------------------------------------- */
+.containerText{
+
+}
+
+.title{
+    
+}
+
+.description{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.img{
-    max-width: 20vw;
-    border: 3px solid #121410;
- }
