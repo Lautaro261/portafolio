@@ -12,7 +12,7 @@ const Inicio = () => {
         <h1 className={style.black}>web  full  stack<span className={style.white}>.</span></h1>
       </div>
       <div className={style.div2}>
-        <img className={style.img} src='/src/image/Imagen de WhatsApp 2023-07-18 a las 19.31.48.jpg'/>
+        <img className={style.img} src='https://res.cloudinary.com/dmusnfifn/image/upload/v1693926649/portafolio/tt0gurdhau3obdmi6gdk.jpg'/>
       </div>
       <div className={style.div3}>
       <button className={style.conoceme}>CONOCEME ▼ </button>
