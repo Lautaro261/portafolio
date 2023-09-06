@@ -23,8 +23,8 @@ const Card = ({ id, image, repositorio, deploy, title, description }) => {
   return (
     <div /* className={newContainerCard} */ className={style.containerCard}>
 
-        <Link to={`/projects/detail/${id}`}>
-            <img className={style.img} src={image} alt="image" /> {/* IMAGEN */}
+        <Link to={`/projects/detail/${id}`} className={style.linkDetail}>
+            <img /* className={style.img} */ src={image} alt="image" /> {/* IMAGEN */}
         </Link>
 
 
@@ -38,6 +38,7 @@ const Card = ({ id, image, repositorio, deploy, title, description }) => {
         >
           Deploy
         </a>
+
         <a
           href={repositorio}
           className={linkClass}

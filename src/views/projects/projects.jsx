@@ -8,7 +8,7 @@ const Projects =()=>{
     return(
         <div className={style.container}>
             <Nav/>
-            <h4>Proyectos Webs</h4>
+            <h4 className={style.title}>Proyectos Webs</h4>
             <div className={style.containerCards}>
 
             {dataWeb.map((p, index)=>{

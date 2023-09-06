@@ -4,8 +4,15 @@
 }
 
 .containerCards{
-    border: 1px dashed red;
+    /* border: 1px dashed red; */
     display: flex;
     justify-content: center;
     
+}
+.title{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.7em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-left: 2em;
 }
