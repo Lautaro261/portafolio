@@ -1,4 +1,5 @@
 import style from "./card.module.css";
+import { Link } from "react-router-dom";
 import { useState } from "react"; // Importa useState
 
 const Card = ({ id, image, repositorio, deploy, title, description }) => {
@@ -21,7 +22,12 @@ const Card = ({ id, image, repositorio, deploy, title, description }) => {
 
   return (
     <div /* className={newContainerCard} */ className={style.containerCard}>
-      <img className={style.img} src={image} alt="image" /> {/* IMAGEN */}
+
+        <Link to={`/projects/detail/${id}`}>
+            <img className={style.img} src={image} alt="image" /> {/* IMAGEN */}
+        </Link>
+
+
       <div className={style.containerButtons}>
         <a
           href={deploy}
@@ -42,11 +48,18 @@ const Card = ({ id, image, repositorio, deploy, title, description }) => {
           Github
         </a>
       </div>
+
+
+
       <div className={style.containerText}>
         <h3 className={style.title}>{title}</h3> {/* TITLE */}
         <p className={style.description}>{description}</p> {/* FRASE */}
-        <p>{id}</p>
+        {/* <p>{id}</p> */}
       </div>
+
+
+
+
     </div>
   );
 };

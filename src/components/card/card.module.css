@@ -34,6 +34,7 @@
   }
   
   .link {
+    text-decoration: none;
     background-color: #121410;
     color: aliceblue;
     border: none;
@@ -43,6 +44,7 @@
     padding-left: 30px;
     clip-path: polygon(20% 0%, 80% 0%, 100% 0, 100% 65%, 90% 100%, 10% 99%, 0 65%, 0 0);
     transition: all 0.4s ease;
+
   }
   
   .link.swing-top {
@@ -70,12 +72,12 @@
 
 
  /* ---------------------------------------------------TEXT----------------------------------------------- */
-.containerText{
+/* .containerText{
 
-}
+} */
 
 .title{
-    
+    font-family: 'Bebas Neue', sans-serif;
 }
 
 .description{
