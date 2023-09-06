@@ -15,8 +15,9 @@ const Projects =()=>{
                 return (
                     <Card 
                     key={index} 
+                    id={index}
                     image={p.image} 
-                    repo={p.repo} 
+                    repositorio={p.repositorio} 
                     deploy={p.deploy}
                     title={p.title}
                     description={p.description}

@@ -1,5 +1,5 @@
 .containerCard{
-    border:  3px solid #16690f;
+    border:  1px dashed #16690f;
     margin: 20px;
     padding: 0;
    /*  width: 300px;
@@ -12,6 +12,14 @@
    flex-direction: column;
 }
 
+/* .containerCard2{
+    border:  1px solid #3b0be9;
+    margin-top: 50px;
+    margin-bottom: 50px;
+} */
+
+
+
 
 .img{
     max-width: 27vw;
@@ -20,23 +28,44 @@
  }
 
 /* ------------------------------------------------Buttons------------------------------------------------ */
-.containerButtons{
-    /* border: 1px solid salmon; */
+.containerButtons {
     display: flex;
-    justify-content:space-between;
-
-}
-
-.btnRepo{
+    justify-content: space-between;
+  }
+  
+  .link {
     background-color: #121410;
     color: aliceblue;
     border: none;
-}
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 30px;
+    padding-left: 30px;
+    clip-path: polygon(20% 0%, 80% 0%, 100% 0, 100% 65%, 90% 100%, 10% 99%, 0 65%, 0 0);
+    transition: all 0.4s ease;
+  }
+  
+  .link.swing-top {
+    animation: swing-top 0.4s linear both;
+  }
+  
+  @keyframes swing-top {
+    0% {
+      transform: rotateX(0);
+      transform-origin: top;
+    }
+    100% {
+      transform: rotateX(180deg);
+      transform-origin: top;
+    }
+  }
 
 
-.btnDep{
 
-}
+
+/* .btnDep{
+
+} */
 
 
 
@@ -52,4 +81,5 @@
 .description{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 
