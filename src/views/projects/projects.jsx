@@ -7,7 +7,7 @@ const Projects =()=>{
 
     return(
         <div className={style.container}>
-            <Nav/>
+            {/* <Nav/> */}
             <h4 className={style.title}>Muestra de trabajos realizados</h4>
             <div className={style.containerCards}>
 

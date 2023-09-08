@@ -4,7 +4,7 @@ const AboutMe =()=>{
 
     return(
         <div>
-            <Nav/>
+            {/* <Nav/> */}
             <h4>Encontrando soluciones</h4>
             <p>Crecí amando las ilustraciones de los cuentos que atesoraba y nunca dejé de hacerlo.</p>
             
