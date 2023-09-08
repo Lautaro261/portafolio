@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Route, Routes } from 'react-router-dom';
-import { Element, Link as ScrollLink } from 'react-scroll'; // Importa Element y Link desde react-scroll
+import { Element, Link as ScrollLink } from 'react-scroll';
 import Landing from './views/landing/landing';
 import AboutMe from './views/aboutMe/aboutMe';
 import Projects from './views/projects/projects';
@@ -12,30 +12,37 @@ function App() {
   return (
     <div>
       <header>
-        <nav className={style.navi}>
+        <div className={style.containerNavBar}>
+
+
+        <nav className={style.navBar}>
+
           <ul className={style.containerList}>
+
             <li className={style.item}>
-              <ScrollLink to="landing" smooth={true} offset={100} duration={500}>
+              <ScrollLink to="landing" smooth={true} offset={-50} duration={500}>
                 Inicio
               </ScrollLink>
             </li>
+
             <li className={style.item}>
-              <ScrollLink to="projects" smooth={true} offset={-310} duration={500}>
+              <ScrollLink to="projects" smooth={true} offset={0} duration={750}>
                 Proyectos
               </ScrollLink>
             </li>
             <li className={style.item}>
-              <ScrollLink to="aboutme" smooth={true} offset={-310} duration={500}>
+              <ScrollLink to="aboutme" smooth={true} offset={0} duration={750}>
                 Sobre mi
               </ScrollLink>
             </li>
             <li className={style.item}>
-              <ScrollLink to="finish" smooth={true} offset={-310} duration={500}>
+              <ScrollLink to="finish" smooth={true} offset={0} duration={750}>
                 Contacto
               </ScrollLink>
             </li>
           </ul>
         </nav>
+        </div>
       </header>
 
       <main>
