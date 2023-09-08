@@ -6,7 +6,7 @@ const Landing =()=>{
 
     return(
         <div>
-            <Nav/>
+            {/* <Nav/> */}
             <Inicio/>
             
         </div>

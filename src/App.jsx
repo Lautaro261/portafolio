@@ -1,55 +1,75 @@
-import { useState } from 'react'
-import { Route, Routes } from "react-router";
+import { useState } from 'react';
+import { Route, Routes } from 'react-router-dom';
+import { Element, Link as ScrollLink } from 'react-scroll'; // Importa Element y Link desde react-scroll
 import Landing from './views/landing/landing';
 import AboutMe from './views/aboutMe/aboutMe';
 import Projects from './views/projects/projects';
 import Finish from './views/finish/Finish';
 import Detail from './views/detail/detail';
 import style from './App.module.css';
-import { Link } from 'react-scroll';
-import { navTitle } from './data/texts';
 
-
-
-function App(){
-
-  return(
+function App() {
+  return (
     <div>
       <header>
         <nav className={style.navi}>
-          {/* <h2>Coffe shopp</h2> */}
-        <ul className={style.containerList}>
-          {navTitle.map(menu=>{
-            return(
+          <ul className={style.containerList}>
             <li className={style.item}>
-              {/* <a  href={`${menu.title}`}>{menu.title}</a> */}
-              <Link className={style.link} to={menu.title} smooth={true} offset={-310} duration={500}>{menu.title}</Link>
+              <ScrollLink to="landing" smooth={true} offset={100} duration={500}>
+                Inicio
+              </ScrollLink>
             </li>
-
-            )
-          })}
-        </ul>
+            <li className={style.item}>
+              <ScrollLink to="projects" smooth={true} offset={-310} duration={500}>
+                Proyectos
+              </ScrollLink>
+            </li>
+            <li className={style.item}>
+              <ScrollLink to="aboutme" smooth={true} offset={-310} duration={500}>
+                Sobre mi
+              </ScrollLink>
+            </li>
+            <li className={style.item}>
+              <ScrollLink to="finish" smooth={true} offset={-310} duration={500}>
+                Contacto
+              </ScrollLink>
+            </li>
+          </ul>
         </nav>
-
       </header>
 
       <main>
-        {navTitle.map(menu=>{
-          return(
+        <Element name="landing">
+          <div className={style.content}>
+            <Landing className={style.contentHeader} />
+          </div>
+        </Element>
 
-        <div className={style.content}>
-          {/* <h1 className={style.contentHeader} id={menu.title}>{menu.title}</h1> */}
-          <Landing className={style.contentHeader}/>
-        </div>
+        <Element name="projects">
+          <div className={style.content}>
+            <Projects className={style.contentHeader} />
+          </div>
+        </Element>
 
-          )
-        })}
+        <Element name="aboutme">
+          <div className={style.content}>
+            <AboutMe className={style.contentHeader} />
+          </div>
+        </Element>
+
+        <Element name="finish">
+          <div className={style.content}>
+            <Finish className={style.contentHeader} />
+          </div>
+        </Element>
       </main>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
+
+
 
 /* function App() {
 
