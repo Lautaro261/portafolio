@@ -5,10 +5,10 @@ import ProjectsWeb from "../projects/projects";
 import AboutMe from "../aboutMe/aboutMe";
 import Finish from "../finish/Finish";
 import ProjectsApp from "../projectsApp/projectsApp";
-import redes from "../../assets/redes.svg"
+import redes from "../../assets/redes.svg";
 import style from "./Home.module.css";
 
-const Home = () => {
+const Home = ({ setProject }) => {
   return (
     <div>
       <header>
@@ -47,7 +47,12 @@ const Home = () => {
                 </ScrollLink>
               </li>
               <li className={style.item}>
-                <ScrollLink to="finish" smooth={true} offset={-150} duration={750}>
+                <ScrollLink
+                  to="finish"
+                  smooth={true}
+                  offset={-150}
+                  duration={750}
+                >
                   Contacto
                 </ScrollLink>
               </li>
@@ -65,7 +70,10 @@ const Home = () => {
 
         <Element name="projects">
           <div className={style.content}>
-            <ProjectsWeb className={style.contentHeader} />
+            <ProjectsWeb
+              className={style.contentHeader}
+              setProject={setProject}
+            />
           </div>
         </Element>
 
@@ -77,7 +85,10 @@ const Home = () => {
 
         <Element name="projectsMobil">
           <div className={style.content}>
-            <ProjectsApp className={style.contentHeader}/>
+            <ProjectsApp
+              className={style.contentHeader}
+              setProject={setProject}
+            />
           </div>
         </Element>
 
@@ -89,10 +100,9 @@ const Home = () => {
 
         <div className={style.containerBtn}>
           <button className={style.btnFlottant}>
-            <img src={redes} alt="Icon"/>
+            <img src={redes} alt="Icon" />
           </button>
         </div>
-
       </main>
     </div>
   );

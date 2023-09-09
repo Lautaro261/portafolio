@@ -2,7 +2,16 @@ import style from "./card.module.css";
 import { Link } from "react-router-dom";
 import { useState } from "react"; // Importa useState
 
-const Card = ({ id, image, repositorio, deploy, title, description }) => {
+const Card = ({
+  id,
+  image,
+  repositorio,
+  deploy,
+  title,
+  description,
+  name,
+  setProject,
+}) => {
   const [isClicked, setIsClicked] = useState(false); // Estado para rastrear si se hizo clic
 
   const handleClick = () => {
@@ -10,6 +19,29 @@ const Card = ({ id, image, repositorio, deploy, title, description }) => {
     setTimeout(() => {
       setIsClicked(false);
     }, 400);
+  };
+
+  const handlerClickImg = (event) => {
+    console.log(event.target.name);
+    const newProject = {
+      image,
+      repositorio,
+      deploy,
+      title,
+      description,
+      name,
+    };
+    
+    window.localStorage.setItem("project", JSON.stringify(newProject));
+    
+    setProject({
+      name,
+      image,
+      repositorio,
+      deploy,
+      title,
+      description,
+    });
   };
 
   const linkClass = `${style.link} ${isClicked ? style["swing-top"] : ""}`;
@@ -22,11 +54,17 @@ const Card = ({ id, image, repositorio, deploy, title, description }) => {
 
   return (
     <div /* className={newContainerCard} */ className={style.containerCard}>
-
-        <Link to={`/projects/detail/${id}`} className={style.linkDetail}>
-            <img /* className={style.img} */ src={image} alt="image" /> {/* IMAGEN */}
-        </Link>
-
+      <Link to={`/projects/detail/${id}`} className={style.linkDetail}>
+        <img
+          /* className={style.img} */ name={name}
+          src={image}
+          alt="image"
+          onClick={() => {
+            handlerClickImg(event);
+          }}
+        />{" "}
+        {/* IMAGEN */}
+      </Link>
 
       <div className={style.containerButtons}>
         <a
@@ -50,17 +88,11 @@ const Card = ({ id, image, repositorio, deploy, title, description }) => {
         </a>
       </div>
 
-
-
       <div className={style.containerText}>
         <h3 className={style.title}>{title}</h3> {/* TITLE */}
         <p className={style.description}>{description}</p> {/* FRASE */}
         {/* <p>{id}</p> */}
       </div>
-
-
-
-
     </div>
   );
 };
