@@ -74,7 +74,7 @@ const Home = () => {
         </Element>
 
         <Element name="finish">
-          <div className={style.content}>
+          <div className={`${style.content} ${style.banner}`}>
             <Finish className={style.contentHeader} />
           </div>
         </Element>
