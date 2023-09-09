@@ -3,7 +3,7 @@ const dataMobil=[
         image: 'https://res.cloudinary.com/dmusnfifn/image/upload/v1694222222/portafolio/amlpbn9zwxbu3nvipflj.jpg',
         repositorio: 'https://github.com/Lautaro261/Planificador-expo',
         deploy:'',
-        title: 'ORGANIZADOR DE GASTOS',
+        title: 'G A S T O S',
         description:'App que registras tus gastos.',
         tecnology:{
             front:[
@@ -51,7 +51,7 @@ const dataMobil=[
         repositorio: 'https://github.com/Lautaro261/citasApp',
         deploy:'',
         title: 'V E T E R I N A R I A',
-        description:'Una app para llegar el control de los turnos',
+        description:'Una app para llegar el control de los turnos.',
         tecnology:{
             front:[
                 {

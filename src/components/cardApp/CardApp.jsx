@@ -5,7 +5,7 @@ import { useState } from "react"; // Importa useState
 const CardApp = ({ id, image, repositorio, title, description }) => {
 
   return (
-    <div /* className={newContainerCard} */ className={style.containerCard}>
+    <div className={style.containerCard}>
 
         <Link to={`/projectsmobil/detail/${id}`} className={style.linkDetail}>
             <img /* className={style.img} */ src={image} alt="image" /> {/* IMAGEN */}
@@ -29,11 +29,7 @@ const CardApp = ({ id, image, repositorio, title, description }) => {
       <div className={style.containerText}>
         <h3 className={style.title}>{title}</h3> {/* TITLE */}
         <p className={style.description}>{description}</p> {/* FRASE */}
-        {/* <p>{id}</p> */}
       </div>
-
-
-
 
     </div>
   );
