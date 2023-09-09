@@ -41,6 +41,7 @@
   /* border: 1px solid #121410; */
   background-color: #121410;
   max-width: 27vw;
+  max-height: 40vh;
   margin: 0;
   padding: 0;
   border: none;
@@ -103,5 +104,3 @@
 .description{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
-

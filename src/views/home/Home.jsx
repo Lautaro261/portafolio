@@ -1,9 +1,11 @@
 import React from "react";
 import { Element, Link as ScrollLink } from "react-scroll";
 import Landing from "../landing/landing";
-import Projects from "../projects/projects";
+import ProjectsWeb from "../projects/projects";
 import AboutMe from "../aboutMe/aboutMe";
 import Finish from "../finish/Finish";
+import ProjectsApp from "../projectsApp/projectsApp";
+import redes from "../../assets/redes.svg"
 import style from "./Home.module.css";
 
 const Home = () => {
@@ -45,7 +47,7 @@ const Home = () => {
                 </ScrollLink>
               </li>
               <li className={style.item}>
-                <ScrollLink to="finish" smooth={true} offset={0} duration={750}>
+                <ScrollLink to="finish" smooth={true} offset={-150} duration={750}>
                   Contacto
                 </ScrollLink>
               </li>
@@ -63,7 +65,19 @@ const Home = () => {
 
         <Element name="projects">
           <div className={style.content}>
-            <Projects className={style.contentHeader} />
+            <ProjectsWeb className={style.contentHeader} />
+          </div>
+        </Element>
+
+        <Element name="finish">
+          <div className={`${style.content} ${style.banner}`}>
+            <Finish className={style.contentHeader} />
+          </div>
+        </Element>
+
+        <Element name="projectsMobil">
+          <div className={style.content}>
+            <ProjectsApp className={style.contentHeader}/>
           </div>
         </Element>
 
@@ -73,11 +87,12 @@ const Home = () => {
           </div>
         </Element>
 
-        <Element name="finish">
-          <div className={`${style.content} ${style.banner}`}>
-            <Finish className={style.contentHeader} />
-          </div>
-        </Element>
+        <div className={style.containerBtn}>
+          <button className={style.btnFlottant}>
+            <img src={redes} alt="Icon"/>
+          </button>
+        </div>
+
       </main>
     </div>
   );

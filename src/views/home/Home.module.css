@@ -58,5 +58,25 @@
 }
 
 .banner{
-  height: 50vh;
+  height: 55vh;
+}
+
+.containerBtn{
+  position: fixed;
+  top: 87%;
+  left: 90%;
+  width: 100%;
+  /*  display: flex;
+    justify-content: center;
+    align-items: center; */
+  z-index: 100; /* Asegura que esté por encima del contenido */
+}
+
+.btnFlottant{
+  background-color: #ebe4d2;
+  border: none;
+  width: 11vh;
+  height: 11vh;
+  border-radius: 100%;
+  border: 5px solid #121410;
 }

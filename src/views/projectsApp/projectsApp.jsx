@@ -1,24 +1,23 @@
-import Nav from "../../components/nav/Nav";
-import Card from "../../components/card/card"
-import style from "./projects.module.css";
-import dataWeb from "../../data/projectsWeb";
+import React from "react";
+import style from './projectsApp.module.css'
+import dataMobil from '../../data/projectsMobil';
+import CardApp from "../../components/cardApp/CardApp";
 
-const ProjectsWeb =()=>{
+const ProjectsApp = ()=>{
 
     return(
         <div className={style.container}>
             {/* <Nav/> */}
-            <h4 className={style.title}>Muestra de trabajos webs realizados</h4>
+            <h4 className={style.title}>Proyectos android</h4>
             <div className={style.containerCards}>
 
-            {dataWeb.map((p, index)=>{
+            {dataMobil.map((p, index)=>{
                 return (
-                    <Card 
+                    <CardApp 
                     key={index} 
                     id={index}
                     image={p.image} 
                     repositorio={p.repositorio} 
-                    deploy={p.deploy}
                     title={p.title}
                     description={p.description}
                     />
@@ -28,7 +27,6 @@ const ProjectsWeb =()=>{
             
         </div>
     )
-
 }
 
-export default  ProjectsWeb;
+export default ProjectsApp;
