@@ -53,6 +53,7 @@ const Detail = () => {
         </div>
 
         <div className={style.Containertecnologie}>
+          
           <div className={style.Containerfront}>
             <p>front</p>
           </div>
