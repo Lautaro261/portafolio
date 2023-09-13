@@ -59,7 +59,9 @@ const Home = ({ setProject }) => {
             </ul>
           </nav>
         </div>
+        
       </header>
+
 
       <main>
         <Element name="landing">
