@@ -21,6 +21,7 @@ const ProjectsWeb = ({ setProject }) => {
               deploy={p.deploy}
               title={p.title}
               description={p.description}
+              tecnology={p.tecnology}
             />
           );
         })}

@@ -6,7 +6,7 @@ const Detail = () => {
   const getProject = window.localStorage.getItem("project");
   const project = JSON.parse(getProject);
 
-  const { name, image, repositorio, deploy, title, description } = project;
+  const { name, image, repositorio, deploy, title, description, tecnology } = project;
 
   useEffect(() => {
     console.log(typeof image === "string");
@@ -52,17 +52,54 @@ const Detail = () => {
           <p>{description}</p>
         </div>
 
-        <div className={style.Containertecnologie}>
+        <div className={style.containerTechnologies}>
           
-          <div className={style.Containerfront}>
-            <p>front</p>
+          <div className={style.containerFront}>
+            <h3 className={style.titleTechnologies}>Front</h3>
+            <div className={style.containerImages}>
+              {tecnology.front.map(tec=>{
+                return(
+                  <div className={style.card}>
+                    <img src={tec.image} alt={tec.name} className={style.logo}/>
+                    <h5 className={style.subTitleTechnologies}>{tec.name}</h5>
+                  </div>
+                )
+                })}
+            </div>
           </div>
-          <div>
-            <p>back</p>
+
+
+          
+          <div className={style.containerFront}>
+            <h3 className={style.titleTechnologies}>Back</h3>
+            <div className={style.containerImages}>
+              {tecnology.back.map(tec=>{
+                return(
+                  <div className={style.card}>
+                    <img src={tec.image} alt={tec.name} className={style.logo}/>
+                    <h5 className={style.subTitleTechnologies}>{tec.name}</h5>
+                  </div>
+                )
+                })}
+            </div>
           </div>
-          <div>
-            <p>base de datos</p>
+
+
+          <div className={style.containerFront}>
+            <h3 className={style.titleTechnologies}>Base de datos</h3>
+            <div className={style.containerImages}>
+              {tecnology.base.map(tec=>{
+                return(
+                  <div className={style.card}>
+                    <img src={tec.image} alt={tec.name} className={style.logo}/>
+                    <h5 className={style.subTitleTechnologies}>{tec.name}</h5>
+                  </div>
+                )
+                })}
+            </div>
           </div>
+
+
         </div>
           </div>
       </main>

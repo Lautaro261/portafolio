@@ -4,12 +4,13 @@ import { useState } from "react"; // Importa useState
 
 const Card = ({
   id,
+  name,
   image,
   repositorio,
   deploy,
   title,
   description,
-  name,
+  tecnology,
   setProject,
 }) => {
   const [isClicked, setIsClicked] = useState(false); // Estado para rastrear si se hizo clic
@@ -30,6 +31,7 @@ const Card = ({
       title,
       description,
       name,
+      tecnology,
     };
     
     window.localStorage.setItem("project", JSON.stringify(newProject));
@@ -41,6 +43,7 @@ const Card = ({
       deploy,
       title,
       description,
+      tecnology,
     });
   };
 

@@ -11,55 +11,55 @@ const dataWeb = [
       front: [
         {
           name: "react.js",
-          image: "",
+          image: "https://res.cloudinary.com/dmusnfifn/image/upload/v1694701811/portafolio/kl07cfozxxoevkwt2nrm.png",
         },
         {
           name: "auth0",
-          image: "",
+          image: "https://res.cloudinary.com/dmusnfifn/image/upload/v1694701811/portafolio/xy50b08eilrbkxj091ex.png",
         },
         {
           name: "redux",
-          image: "",
+          image: "https://res.cloudinary.com/dmusnfifn/image/upload/v1694701810/portafolio/vnxkjpekeqr88idifpcd.png",
         },
         {
           name: "bootstrap",
-          image: "",
+          image: "https://res.cloudinary.com/dmusnfifn/image/upload/v1694701810/portafolio/anlzywatjdg467yrgpdo.png",
         },
-        {
+        /* {
           name: "yup",
           image: "",
-        },
+        }, */
         {
           name: "cloudinary",
-          image: "",
+          image: "https://res.cloudinary.com/dmusnfifn/image/upload/v1694701810/portafolio/r8tzt9f0ruquombw1bm3.png",
         },
       ],
       back: [
         {
           name: "node.js",
-          image: "",
+          image: "https://res.cloudinary.com/dmusnfifn/image/upload/v1694701811/portafolio/qugffohful5mnjpdsmyd.png",
         },
         {
           name: "express",
-          image: "",
+          image: "https://res.cloudinary.com/dmusnfifn/image/upload/v1694701810/portafolio/fdr0h0glrurcdwmjwsmy.png",
         },
         {
           name: "sequelize",
-          image: "",
+          image: "https://res.cloudinary.com/dmusnfifn/image/upload/v1694701811/portafolio/izdhgbxoh8gg1t4dybu2.png",
         },
         {
           name: "mercadopago",
-          image: "",
+          image: "https://res.cloudinary.com/dmusnfifn/image/upload/v1694701810/portafolio/w6xnglkxwmkzby8lqpup.png",
         },
         {
           name: "nodemailer",
-          image: "",
+          image: "https://res.cloudinary.com/dmusnfifn/image/upload/v1694701811/portafolio/gsa9305gzygmhmnewcvf.png",
         },
       ],
       base: [
         {
           name: "PostgreSQL",
-          image: "",
+          image: "https://res.cloudinary.com/dmusnfifn/image/upload/v1694701811/portafolio/vdrhf77nilkmpykzlmyg.png",
         },
       ],
     },
