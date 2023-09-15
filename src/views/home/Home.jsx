@@ -30,7 +30,7 @@ const Home = ({ setProject }) => {
                 <ScrollLink
                   to="projects"
                   smooth={true}
-                  offset={0}
+                  offset={-50}
                   duration={750}
                 >
                   Proyectos

@@ -10,19 +10,19 @@ const dataWeb = [
     tecnology: {
       front: [
         {
-          name: "react.js",
+          name: "React.js",
           image: "https://res.cloudinary.com/dmusnfifn/image/upload/v1694701811/portafolio/kl07cfozxxoevkwt2nrm.png",
         },
         {
-          name: "auth0",
+          name: "Auth0",
           image: "https://res.cloudinary.com/dmusnfifn/image/upload/v1694701811/portafolio/xy50b08eilrbkxj091ex.png",
         },
         {
-          name: "redux",
+          name: "Redux",
           image: "https://res.cloudinary.com/dmusnfifn/image/upload/v1694701810/portafolio/vnxkjpekeqr88idifpcd.png",
         },
         {
-          name: "bootstrap",
+          name: "Bootstrap",
           image: "https://res.cloudinary.com/dmusnfifn/image/upload/v1694701810/portafolio/anlzywatjdg467yrgpdo.png",
         },
         /* {
@@ -30,29 +30,29 @@ const dataWeb = [
           image: "",
         }, */
         {
-          name: "cloudinary",
+          name: "Cloudinary",
           image: "https://res.cloudinary.com/dmusnfifn/image/upload/v1694701810/portafolio/r8tzt9f0ruquombw1bm3.png",
         },
       ],
       back: [
         {
-          name: "node.js",
+          name: "Node.js",
           image: "https://res.cloudinary.com/dmusnfifn/image/upload/v1694701811/portafolio/qugffohful5mnjpdsmyd.png",
         },
         {
-          name: "express",
+          name: "Express",
           image: "https://res.cloudinary.com/dmusnfifn/image/upload/v1694701810/portafolio/fdr0h0glrurcdwmjwsmy.png",
         },
         {
-          name: "sequelize",
+          name: "Sequelize",
           image: "https://res.cloudinary.com/dmusnfifn/image/upload/v1694701811/portafolio/izdhgbxoh8gg1t4dybu2.png",
         },
         {
-          name: "mercadopago",
+          name: "Mercado Pago",
           image: "https://res.cloudinary.com/dmusnfifn/image/upload/v1694701810/portafolio/w6xnglkxwmkzby8lqpup.png",
         },
         {
-          name: "nodemailer",
+          name: "Nodemailer",
           image: "https://res.cloudinary.com/dmusnfifn/image/upload/v1694701811/portafolio/gsa9305gzygmhmnewcvf.png",
         },
       ],
@@ -75,15 +75,15 @@ const dataWeb = [
     tecnology: {
       front: [
         {
-          name: "react.js",
+          name: "React.js",
           image: "",
         },
         {
-          name: "auth0",
+          name: "Auth0",
           image: "",
         },
         {
-          name: "reduxjs/toolkit",
+          name: "Redux Toolkit",
           image: "",
         },
         {
@@ -91,29 +91,29 @@ const dataWeb = [
           image: "",
         },
         {
-          name: "cloudinary",
+          name: "Cloudinary",
           image: "",
         },
       ],
       back: [
         {
-          name: "node.js",
+          name: "Node.js",
           image: "",
         },
         {
-          name: "express",
+          name: "Express",
           image: "",
         },
         {
-          name: "sequelize",
+          name: "Sequelize",
           image: "",
         },
         {
-          name: "mercadopago",
+          name: "Mercado Pago",
           image: "",
         },
         {
-          name: "nodemailer",
+          name: "Nodemailer",
           image: "",
         },
       ],
@@ -136,25 +136,25 @@ const dataWeb = [
     tecnology: {
       front: [
         {
-          name: "react.js",
+          name: "React.js",
           image: "",
         },
         {
-          name: "redux",
+          name: "Redux",
           image: "",
         },
       ],
       back: [
         {
-          name: "node.js",
+          name: "Node.js",
           image: "",
         },
         {
-          name: "express",
+          name: "Express",
           image: "",
         },
         {
-          name: "sequelize",
+          name: "Sequelize",
           image: "",
         },
       ],

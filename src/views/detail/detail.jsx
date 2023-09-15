@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import Nav from "../../components/nav/Nav";
 import style from "./detail.module.css";
+import { Link } from "react-router-dom";
 
 const Detail = () => {
   const getProject = window.localStorage.getItem("project");
@@ -18,10 +19,10 @@ const Detail = () => {
         <div className={style.containerNavBar}> 
           <nav className={style.navBar}>
             <ul className={style.containerList}>
-              <li className={style.item}>{title}</li>
-              <li className={style.item}>home</li>
-              <li className={style.item}>deploy</li>
-              <li className={style.item}>repositorio</li>
+              <li > <a href={deploy} rel="noopener noreferrer" className={style.item}>{title}</a> </li>
+              <li > <Link to='/' className={style.item}> Home</Link> </li>
+              <li ><a href={repositorio} rel="noopener noreferrer" className={style.item}>Repositorio</a></li>
+              
             </ul>
           </nav>
         </div>
