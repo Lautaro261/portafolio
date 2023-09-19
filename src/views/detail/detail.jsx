@@ -55,6 +55,7 @@ const Detail = () => {
 
         <div className={style.containerTechnologies}>
           
+          
           <div className={style.containerFront}>
             <h3 className={style.titleTechnologies}>Front</h3>
             <div className={style.containerImages}>
