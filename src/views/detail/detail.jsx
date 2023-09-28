@@ -88,7 +88,7 @@ const Detail = () => {
 
 
           <div className={style.containerFront}>
-            <h3 className={style.titleTechnologies}>Base de datos</h3>
+            <h3 className={style.titleTechnologies}>Data Base</h3>
             <div className={style.containerImages}>
               {tecnology.base.map(tec=>{
                 return(

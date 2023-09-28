@@ -4,13 +4,13 @@ import Nav from "../../components/nav/Nav";
 
 const Landing =()=>{
 
-    return(
-        <div>
-            {/* <Nav/> */}
+    return <Inicio/> /* (
+        <div    >
+            
             <Inicio/>
             
         </div>
-    )
+    ) */
 
 }
 
