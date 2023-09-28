@@ -94,11 +94,11 @@ const Home = ({ setProject }) => {
           </div>
         </Element>
 
-        <Element name="aboutme">
+        {/* <Element name="aboutme">
           <div className={style.content}>
             <AboutMe className={style.contentHeader} />
           </div>
-        </Element>
+        </Element> */}{/* si va a ir pero antes de proyectos web, mostrar habilidades blandas y duras */}
 
         <div className={style.containerBtn}>
           <button className={style.btnFlottant}>
