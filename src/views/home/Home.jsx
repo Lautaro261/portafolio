@@ -6,6 +6,7 @@ import AboutMe from "../aboutMe/aboutMe";
 import Finish from "../finish/Finish";
 import ProjectsApp from "../projectsApp/projectsApp";
 import redes from "../../assets/redes.svg";
+import BtnFlottant from "../../components/btnflottant/BtnFflottant";
 import style from "./Home.module.css";
 
 const Home = ({ setProject }) => {
@@ -100,11 +101,18 @@ const Home = ({ setProject }) => {
           </div>
         </Element> */}{/* si va a ir pero antes de proyectos web, mostrar habilidades blandas y duras */}
 
-        <div className={style.containerBtn}>
-          <button className={style.btnFlottant}>
+
+
+
+     
+          <BtnFlottant/>
+          {/* <button className={style.btnFlottant}>
             <img src={redes} alt="Icon" />
-          </button>
-        </div>
+          </button> */}
+       
+
+
+
       </main>
     </div>
   );
