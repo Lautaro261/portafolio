@@ -51,7 +51,7 @@ const Carousel = ({ cards, cardsPerPage, setProject }) => {
         
         {/* <button onClick={handleNextClick} className={style.Btn}>&gt;</button> */}
 
-        <div onClick={handlePrevClick} className={style.Btn}>
+        <div onClick={handleNextClick} className={style.Btn}>
             <img src={der} alt="derecha"/>
         </div>
 
