@@ -1,0 +1,46 @@
+/* carousel.module.css */
+.carouselContainer {
+    /* position: relative; */
+   /*  overflow: hidden; */
+    /* max-width: 100%; */
+    background-color: brown;
+    display: flex;
+    max-width: 98%;
+    min-width: 98%;
+    align-items: center;
+
+  }
+  
+  .carousel {
+    display: flex;
+    /* transition: transform 0.3s ease;  */
+    background-color: blueviolet;
+    min-width: 95%;
+  }
+  
+  .carouselCard {
+    flex: 0 0 33.33%; /* Ajusta este valor según la cantidad deseada de tarjetas por slide */
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #edeced;
+  }
+  
+  .carouselButtons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    border: 2px solid white;
+  }
+  
+  .Btn {
+    background-color: transparent;
+    /* border: none; */
+    font-size: 24px;
+    cursor: pointer;
+    outline: none;
+    height: 10vh
+    
+  }
+  
+  /* Añade otros estilos según tus preferencias */
+  

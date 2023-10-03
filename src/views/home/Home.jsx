@@ -97,7 +97,7 @@ const Home = ({ setProject }) => {
 
         {/* <Element name="aboutme">
           <div className={style.content}>
-            <AboutMe className={style.contentHeader} />
+            <AboutMe className={style.contentHeader} setProject={setProject}/>
           </div>
         </Element> */}{/* si va a ir pero antes de proyectos web, mostrar habilidades blandas y duras */}
 
