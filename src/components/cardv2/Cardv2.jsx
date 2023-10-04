@@ -1,8 +1,8 @@
-import style from "./card.module.css";
 import { Link } from "react-router-dom";
-import { useState } from "react"; // Importa useState
+import { useState } from "react";
+import style from "./Cardv2.module.css";
 
-const Card = ({
+const Cardv2 = ({
   id,
   name,
   image,
@@ -33,9 +33,9 @@ const Card = ({
       name,
       tecnology,
     };
-    
+
     window.localStorage.setItem("project", JSON.stringify(newProject));
-    
+
     setProject({
       name,
       image,
@@ -47,37 +47,28 @@ const Card = ({
     });
   };
 
-  const linkClass = `${style.link} ${isClicked ? style["swing-top"] : ""}`;
-
-  /*  let newContainerCard = style.containerCard;
-
-    if (id === 1) {
-      newContainerCard = style.containerCard2;
-    } */
-
   return (
+    <div className={style.cardContainer}>
+      {/* -------------------------------------------------------------------------------------------------- */}
+      <div className={style.visualContainer}>
+        <Link to={`/projects/detail/${id}`} className={style.imageLink}>
+          <img
+            className={style.image}
+            name={name}
+            src={image}
+            alt="image"
+            onClick={() => {
+              handlerClickImg(event);
+            }}
+          />
+        </Link>
 
 
-    <div /* className={newContainerCard} */ className={style.containerCard}>
+        <div className={style.containerButtons}>
 
-
-
-      <Link to={`/projects/detail/${id}`} className={style.linkDetail}>
-        <img
-          /* className={style.img} */ 
-          name={name}
-          src={image}
-          alt="image"
-          onClick={() => {
-            handlerClickImg(event);
-          }}
-        />{" "}
-      </Link>
-
-      <div className={style.containerButtons}>
         <a
           href={deploy}
-          className={linkClass}
+          className={style.buttonLink}
           onClick={handleClick}
           target="_blank"
           rel="noopener noreferrer"
@@ -87,22 +78,19 @@ const Card = ({
 
         <a
           href={repositorio}
-          className={linkClass}
+          className={style.buttonLink}
           onClick={handleClick}
           target="_blank"
           rel="noopener noreferrer"
         >
           Github
         </a>
+        </div>
       </div>
-
-      <div className={style.containerText}>
-        <h3 className={style.title}>{title}</h3> {/* TITLE */}
-        <p className={style.description}>{description}</p> {/* FRASE */}
-        {/* <p>{id}</p> */}
-      </div>
+      {/* --------------------------------------------------------------------------------------------------- */}
+      <div className={style.textContainer}></div>
     </div>
   );
 };
 
-export default Card;
+export default Cardv2;
