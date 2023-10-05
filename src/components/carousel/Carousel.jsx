@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import Cardv2 from '../cardv2/Cardv2';
-import style from "./Carousel.module.css"
-import der from "../../assets/der.svg";
-import izq from "../../assets/izq.svg";
+import style from './Carousel.module.css';
+import der from '../../assets/der.svg';
+import izq from '../../assets/izq.svg';
 
 const Carousel = ({ cards, cardsPerPage, setProject }) => {
   const [currentPage, setCurrentPage] = useState(0);
@@ -21,11 +21,23 @@ const Carousel = ({ cards, cardsPerPage, setProject }) => {
 
   return (
     <div className={style.carouselContainer}>
-        
-        {/* <button onClick={handlePrevClick} className={style.Btn}>&lt;</button> */}
-        <div onClick={handlePrevClick} className={style.Btn}>
-            <img src={izq} alt="izquierda"/>
-        </div>
+
+
+
+{/*       <div className={style.carouselButtons}>
+        <button onClick={handlePrevClick} className={style.prevButton}>
+          <img src={izq} alt="Izquierda" className={style.icon}/>
+        </button>
+
+
+        <button onClick={handleNextClick} className={style.nextButton}>
+          <img src={der} alt="Derecha" className={style.icon}/>
+        </button>
+      </div> */}
+
+
+
+
 
       <div className={style.carousel}>
         {visibleCards.map((card, index) => (
@@ -45,20 +57,8 @@ const Carousel = ({ cards, cardsPerPage, setProject }) => {
           </div>
         ))}
       </div>
-
-
-
-        
-        {/* <button onClick={handleNextClick} className={style.Btn}>&gt;</button> */}
-
-        <div onClick={handleNextClick} className={style.Btn}>
-            <img src={der} alt="derecha"/>
-        </div>
-
-
     </div>
   );
 };
 
 export default Carousel;
-

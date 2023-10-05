@@ -1,48 +1,71 @@
-/* carousel.module.css */
 .carouselContainer {
-    /* position: relative; */
-   /*  overflow: hidden; */
-    /* max-width: 100%; */
-    background-color: brown;
-    display: flex;
-    max-width: 98%;
-    min-width: 98%;
-    align-items: center;
+  position: relative;
+  overflow: hidden;
+  max-width: 100%;
+  background-color: brown;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* height: 300px; */
+}
 
-  }
-  
-  .carousel {
-    display: flex;
-    /* transition: transform 0.3s ease;  */
-    background-color: blueviolet;
-    min-width: 95%;
-  }
-  
-  .carouselCard {
-    flex: 0 0 33.33%; /* Ajusta este valor según la cantidad deseada de tarjetas por slide */
-    padding: 10px;
-    box-sizing: border-box;
-    background-color: #edeced;
-  }
-  
-  .carouselButtons {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-    /* background-color: aqua; */
-  }
-  
-  .Btn {
-    /* background-color: transparent; */
-    background-color: aqua;
-    border-radius: 0% 50% 50% 0%;
-    /* border: none; */
-    font-size: 24px;
-    cursor: pointer;
-    outline: none;
-    height: 10vh
-    
-  }
-  
-  /* Añade otros estilos según tus preferencias */
+.carousel {
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  width: 100%;
+}
+
+.carouselCard {
+  flex: 0 0 33.33%;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #edeced;
+  scroll-snap-align: center;
+}
+
+.carouselButtons {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.icon{
+  width: 1vw;
+}
+
+.prevButton,
+.nextButton {
+  border: none;
+  cursor: pointer;
+  background-color: #a0a918;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease-in-out;
+  width: 3vw;
+  height: 3vw;
+  padding-top: 4px;
+  /* margin-top: 50px; */
+  margin-bottom: 4vw;
+}
+.prevButton:hover,
+.nextButton:hover {
+  background-color: #9ea355;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.4);
+}
+
+.prevButton {
+  left: 0;
+  border-radius: 0px 40% 40% 0px;
+}
+
+.nextButton {
+  right: 0;
+  border-radius: 40% 0% 0% 40%;
+}
   

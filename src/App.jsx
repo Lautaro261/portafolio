@@ -5,6 +5,8 @@ import Home from "./views/home/Home";
 import style from "./App.module.css";
 import Card from "./components/card/card";
 import Cardv2 from "./components/cardv2/Cardv2";
+import Carousel from "./components/carousel/Carousel";
+import dataWeb from "./data/projectsWeb";
 
 function App() {
   const [project, setProject] = useState({});
@@ -25,16 +27,7 @@ function App() {
 
       <Route 
         path="/test"
-        element={<Cardv2 
-          id='1'
-          name='paby'
-          image='https://res.cloudinary.com/dmusnfifn/image/upload/v1693926649/portafolio/wwetymnfw5e33z2c9k0y.png'
-          repositorio='https://github.com/Lautaro261/paby-PF'
-          deploy='https://github.com/Lautaro261/paby-PF'
-          title='P A B Y'
-          description='Plataforma para reservar tus espacios en parquimetros.'
-          tecnology=''
-          setProject= {setProject}/>} 
+        element={<Carousel cards={dataWeb} cardsPerPage={3} setProject={setProject}/>} 
       />
     </Routes>
   );
