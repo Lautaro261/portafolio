@@ -47,10 +47,13 @@ const Cardv2 = ({
     });
   };
 
+
   return (
     <div className={style.cardContainer}>
       {/* -------------------------------------------------------------------------------------------------- */}
       <div className={style.visualContainer}>
+        <div className={style.marco}>
+
         <Link to={`/projects/detail/${id}`} className={style.imageLink}>
           <img
             className={style.image}
@@ -62,6 +65,7 @@ const Cardv2 = ({
             }}
           />
         </Link>
+        </div>
 
 
         <div className={style.containerButtons}>
@@ -88,7 +92,10 @@ const Cardv2 = ({
         </div>
       </div>
       {/* --------------------------------------------------------------------------------------------------- */}
-      <div className={style.textContainer}></div>
+      <div className={style.textContainer}>
+      <h3 className={style.title}>{title}</h3> 
+        <p className={style.description}>{description}</p>
+      </div>
     </div>
   );
 };

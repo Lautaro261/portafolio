@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Card from '../card/card';
+import Cardv2 from '../cardv2/Cardv2';
 import style from "./Carousel.module.css"
 import der from "../../assets/der.svg";
 import izq from "../../assets/izq.svg";
@@ -30,7 +30,7 @@ const Carousel = ({ cards, cardsPerPage, setProject }) => {
       <div className={style.carousel}>
         {visibleCards.map((card, index) => (
           <div key={index} className={style.carouselCard}>
-            <Card
+            <Cardv2
               setProject={setProject}
               key={index}
               id={index}
