@@ -7,9 +7,23 @@ const CardApp = ({ id, image, repositorio, title, description }) => {
   return (
     <div className={style.containerCard}>
 
+
+
+
+
+
+
         <Link to={`/projectsmobil/detail/${id}`} className={style.linkDetail}>
             <img /* className={style.img} */ src={image} alt="image" /> {/* IMAGEN */}
         </Link>
+
+
+
+
+
+
+
+
 
 
       <div className={style.containerButtons}>
@@ -26,9 +40,9 @@ const CardApp = ({ id, image, repositorio, title, description }) => {
 
 
 
-      <div className={style.containerText}>
-        <h3 className={style.title}>{title}</h3> {/* TITLE */}
-        <p className={style.description}>{description}</p> {/* FRASE */}
+      <div className={style.textContainer}>
+      <h3 className={style.title}>{title}</h3> 
+        <p className={style.description}>{description}</p>
       </div>
 
     </div>

@@ -1,69 +1,48 @@
 .parent {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(12, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    background-image: url('https://res.cloudinary.com/dmusnfifn/image/upload/v1693926655/portafolio/ybv2bzmqoqohhkk42rx1.jpg');
-    background-size:cover;
-    height: 55vh;
-    width: 100vw;
- 
-   
-    }
-    
-.div1 { 
-    grid-area: 1 / 2 / 11 / 8;
-   /*  border: 1px solid red; */
-    padding-left: 5vw;
-    padding-right: 2vw;
     display: flex;
-    padding-top: 5vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    background-image: url('https://res.cloudinary.com/dmusnfifn/image/upload/v1693926655/portafolio/ybv2bzmqoqohhkk42rx1.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 55vh
+  }
+  
+  .div1 {
+    flex: 1;
+    /* padding: 5vw 2vw; */
+    display: flex;
     flex-direction: column;
     backdrop-filter: blur(2px);
-    /* border-radius: 1px solid red; */
- }
-.div2 { 
-    grid-area: 4 / 5 / 5 / 8;
-    padding-top: 3vw;
-    padding-left: 4vw;
-    /* border: 1px solid rgb(255, 255, 255); */
-    
- }
-
-
-.fondo{
-        background-image: url('../../image/plantita.jpg');
-        background-size:cover;
-       /* background-size: cover; */ /* Cambia esta propiedad */
-       background-repeat: no-repeat;
-       background-position: center;
-       height: 100vh;
-       display: flex;
-       justify-content: center;
-       align-items:flex-start;
-       
-}
-    
-.frase1{
-        color: #ececec;
-        font-family: 'Manrope', sans-serif;
-        font-style: italic;
-       /*  border: 1px solid rgb(0, 4, 255); */
-        margin-top: 1px ;
-        margin-bottom: 1px;
-        padding-top: 1px;
-        padding-bottom: 1px;
-        font-size: 2vw;
-}
-
-.frase2{
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+  }
+  
+  .frase1 {
     color: #ececec;
     font-family: 'Manrope', sans-serif;
-    /* border: 1px solid rgb(0, 4, 255); */
-    font-size: 1.3vw;
-    margin-top: 1px ;
+    font-style: italic;
+    font-size: 2vw;
+    margin-top: 1px;
     margin-bottom: 1px;
-    padding-top: 1px;
-    padding-bottom: 1px;
-}
+  }
+  
+  .frase2 {
+    color: #ececec;
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.3vw;
+    margin-top: 1px;
+    margin-bottom: 1px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .frase1 {
+      font-size: 1.5vw;
+    }
+  
+    .frase2 {
+      font-size: 1vw;
+    }
+  }

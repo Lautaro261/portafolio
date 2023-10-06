@@ -4,7 +4,8 @@
    /*  margin-right: 5px; */
    /*  margin-left: 5px; */
     /* padding-top: 1%; */
-    width: 17vw;
+    width: 15vw;
+    height: 30vw;
    /*  width: 300px;
     display: flex;
     flex-direction: column;   /* AQUI MODIFICO LA DISTRIBUCION DENTRO DE CADA CARD 
@@ -13,31 +14,33 @@
     display:  flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 2vw;
     
    
 }
 
 .containerCard:hover {
-  box-shadow: 5px -5px 7px -5px rgb(0, 0, 0),0px 10px 15px -3px rgba(0,0,0,0.1);
+  box-shadow: 0px 0px 9px 5px rgba(65, 65, 65, 0.562),0px 10px 15px -3px rgba(0,0,0,0.1);
 }
 
 
 .linkDetail{
-  border: 5px solid #121410;
+  border: 0.4vw solid #121410;
   margin: 0; 
   padding: 0; 
   text-decoration: none; 
   /* display: inline-block; */
-  max-height: 40vh ;
+  height: 19vw ;
 
 }
 
 
 .linkDetail img {
   /* border: 1px solid #121410; */
-  background-color: #121410;
  /*  max-width: 27vw; */
-  max-height: 40vh;
+ max-width: 100%; /* La imagen nunca será más ancha que su contenedor */
+ max-height: 100%; /* La imagen nunca será más alta que su contenedor */
+ height: auto;
   margin: 0;
   padding: 0;
   border: none;
@@ -60,13 +63,22 @@
     background-color: #121410;
     color: aliceblue;
     border: none;
-    padding-top: 2px;
-    padding-bottom: 3px;
-    padding-right: 15px;
-    padding-left: 15px;
+    /* padding-top: 0.4vw; */
+    /* padding-bottom: 0.2vw; */
+   /*  padding-right: 2vw; */
+    /* padding-left: 2vw; */
     clip-path: polygon(20% 0%, 80% 0%, 100% 0, 100% 65%, 90% 100%, 10% 99%, 0 65%, 0 0);
     transition: all 0.4s ease;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* text-align: center; */
+    box-shadow: 0px -8px 0px 0px rgb(0, 0, 0);
+    padding-top: 0px;
+    padding-bottom: 0.2vw;
+    width: 5vw;
+    text-align: center;
+    font-size: 1.3vw;
+    padding-right: 1.8vw;
+    padding-left: 1.8vw; 
   }
   
 /*   .link.swing-top {
@@ -96,10 +108,16 @@
 } */
 
 .title{
-    font-family: 'Bebas Neue', sans-serif;
-    margin-left: 2%;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.8vw;
+  margin-left: 5%;
+  margin-top: 0.8vw;
+  margin-bottom: 0px;
 }
 
 .description{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.2vw;
+  margin-left: 2%;
+  margin-top: 0.2vw;
 }

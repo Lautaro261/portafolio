@@ -11,7 +11,7 @@
 
 .carousel {
   display: flex;
-  overflow-x: scroll;
+  /* overflow-x: scroll; */
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   width: 100%;
