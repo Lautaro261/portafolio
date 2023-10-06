@@ -20,7 +20,7 @@ const BtnFlottant = () => {
         <div>
             <div className={style.ContainerBtnFlottant1}>
              <button className={`${style.btnFlottant1} ${visible ? style.btnFlottant1Hidden : ''}`} name='redes' onClick={handlerClick}>
-                <img src={redes} alt="Icon" name='redes'/>
+                <img src={redes} alt="Icon" name='redes' className={style.iconRedes}/>
               </button> 
             </div>
 
@@ -32,15 +32,15 @@ const BtnFlottant = () => {
                 </a>
 
                 <a href="mailto:nahueltorrestec@gmail.com">
-                   <img src={gmail} alt='gmail'/> 
+                   <img src={gmail} alt='gmail' className={style.icons}/> 
                 </a>
 
                 <a href='https://www.linkedin.com/in/nahuel-lautaro-torres-loretto-511085235/' target='_blank'>
-                    <img src={linkedin} alt='linkedin'/>
+                    <img src={linkedin} alt='linkedin' className={style.icons}/>
                 </a>
 
                 <a href='https://github.com/Lautaro261' target='_blank'>
-                    <img src={github} alt='github'/>
+                    <img src={github} alt='github' className={style.icons}/>
                 </a>
 
                 <div name='close' >
