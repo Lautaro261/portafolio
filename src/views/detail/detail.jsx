@@ -50,7 +50,7 @@ const Detail = () => {
         </a>
  */}
         <div className={style.description}>
-          <p>{longDescription}</p>
+          <p className={style.text}>{longDescription}</p>
         </div>
 
         <div className={style.containerTechnologies}>
