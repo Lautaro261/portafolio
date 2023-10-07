@@ -1,5 +1,6 @@
 const dataMobil=[
     {
+        id:50,
         image: 'https://res.cloudinary.com/dmusnfifn/image/upload/v1694222222/portafolio/amlpbn9zwxbu3nvipflj.jpg',
         repositorio: 'https://github.com/Lautaro261/Planificador-expo',
         deploy:'',
@@ -16,6 +17,7 @@ const dataMobil=[
         }
     },
     {
+        id:51,
         image: 'https://res.cloudinary.com/dmusnfifn/image/upload/v1694222221/portafolio/kweee4czrn9ormkbnn8q.jpg',
         repositorio: 'https://github.com/Lautaro261/CriptomonedasApp',
         deploy:'',
@@ -33,6 +35,7 @@ const dataMobil=[
         
     },
     {
+        id:52,
         image: 'https://res.cloudinary.com/dmusnfifn/image/upload/v1694222221/portafolio/sd5832dod8k0cchojzgg.jpg',
         repositorio: 'https://github.com/Lautaro261/ClimaAppExpo',
         deploy:'',
@@ -50,6 +53,7 @@ const dataMobil=[
         }
     },
     {
+        id:53,
         image: 'https://res.cloudinary.com/dmusnfifn/image/upload/v1694222222/portafolio/ivldlzss8yflcwzhcocm.jpg',
         repositorio: 'https://github.com/Lautaro261/citasApp',
         deploy:'',

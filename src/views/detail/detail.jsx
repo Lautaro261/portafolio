@@ -56,50 +56,66 @@ const Detail = () => {
         <div className={style.containerTechnologies}>
           
           
-          <div className={style.containerFront}>
-            <h3 className={style.titleTechnologies}>Front</h3>
+
+
+            {tecnology.front && (
+              
+              <div className={style.containerFront}>
+              
+              <h3 className={style.titleTechnologies}>Front</h3>
             <div className={style.containerImages}>
-              {tecnology.front.map(tec=>{
-                return(
-                  <div className={style.card}>
-                    <img src={tec.image} alt={tec.name} className={style.logo}/>
-                    <h5 className={style.subTitleTechnologies}>{tec.name}</h5>
-                  </div>
-                )
-                })}
+              {tecnology.front.map((tec) => (
+                <div className={style.card} key={tec.id}>
+                  <img src={tec.image} alt={tec.name} className={style.logo} />
+                  <h5 className={style.subTitleTechnologies}>{tec.name}</h5>
+                </div>
+              ))}
+
+
             </div>
           </div>
+          )}
 
 
           
-          <div className={style.containerFront}>
-            <h3 className={style.titleTechnologies}>Back</h3>
+            {tecnology.back && (
+              
+              
+              
+              <div className={style.containerFront}>
+              <h3 className={style.titleTechnologies}>Back</h3>
             <div className={style.containerImages}>
-              {tecnology.back.map(tec=>{
-                return(
-                  <div className={style.card}>
-                    <img src={tec.image} alt={tec.name} className={style.logo}/>
-                    <h5 className={style.subTitleTechnologies}>{tec.name}</h5>
-                  </div>
-                )
-                })}
+              {tecnology.back.map((tec) => (
+                <div className={style.card} key={tec.id}>
+                  <img src={tec.image} alt={tec.name} className={style.logo} />
+                  <h5 className={style.subTitleTechnologies}>{tec.name}</h5>
+                </div>
+              ))}
             </div>
           </div>
 
 
+          )}
+
+
+            {tecnology.back && (
           <div className={style.containerFront}>
-            <h3 className={style.titleTechnologies}>Data Base</h3>
+              
+              
+              
+              <h3 className={style.titleTechnologies}>Data Base</h3>
             <div className={style.containerImages}>
-              {tecnology.base.map(tec=>{
-                return(
-                  <div className={style.card}>
-                    <img src={tec.image} alt={tec.name} className={style.logo}/>
-                    <h5 className={style.subTitleTechnologies}>{tec.name}</h5>
-                  </div>
-                )
-                })}
+              {tecnology.back.map((tec) => (
+                <div className={style.card} key={tec.id}>
+                  <img src={tec.image} alt={tec.name} className={style.logo} />
+                  <h5 className={style.subTitleTechnologies}>{tec.name}</h5>
+                </div>
+              ))}
             </div>
           </div>
+
+
+          )}
 
 
         </div>

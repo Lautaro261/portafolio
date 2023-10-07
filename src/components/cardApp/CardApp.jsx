@@ -2,7 +2,41 @@ import style from "./CardApp.module.css";
 import { Link } from "react-router-dom";
 import { useState } from "react"; // Importa useState
 
-const CardApp = ({ id, image, repositorio, title, shortDescription, longDescription}) => {
+const CardApp = ({
+  id,
+  name,
+  image,
+  repositorio,
+  title,
+  shortDescription,
+  longDescription,
+  tecnology,
+  setProject,
+}) => {
+  const handlerClickImg = (event) => {
+    console.log(event.target.name);
+    const newProject = {
+      image,
+      repositorio,
+      title,
+      shortDescription,
+      longDescription,
+      name,
+      tecnology,
+    };
+
+    window.localStorage.setItem("project", JSON.stringify(newProject));
+
+    setProject({
+      name,
+      image,
+      repositorio,
+      title,
+      shortDescription,
+      longDescription,
+      tecnology,
+    });
+  };
 
   return (
     <div className={style.containerCard}>
@@ -14,7 +48,13 @@ const CardApp = ({ id, image, repositorio, title, shortDescription, longDescript
 
 
         <Link to={`/projectsmobil/detail/${id}`} className={style.linkDetail}>
-            <img /* className={style.img} */ src={image} alt="image" /> {/* IMAGEN */}
+            <img /* className={style.img} */ 
+            src={image} 
+            alt="image" 
+            onClick={() => {
+              handlerClickImg(event);
+            }}
+            /> {/* IMAGEN */}
         </Link>
 
 

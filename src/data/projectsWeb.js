@@ -1,5 +1,6 @@
 const dataWeb = [
   {
+    id:1,
     name: "paby",
     image:
       "https://res.cloudinary.com/dmusnfifn/image/upload/v1693926649/portafolio/wwetymnfw5e33z2c9k0y.png",
@@ -66,6 +67,7 @@ const dataWeb = [
     },
   },
   {
+    id:2,
     name: "tecnocamp",
     image:
       "https://res.cloudinary.com/dmusnfifn/image/upload/v1693926649/portafolio/rqmijyvr7zqzldmh4apt.png",
@@ -128,6 +130,7 @@ const dataWeb = [
     },
   },
   {
+    id:3,
     name: "pokemons",
     image:
       "https://res.cloudinary.com/dmusnfifn/image/upload/v1693926648/portafolio/cabyemsx8qc41nefnpi2.png",

@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import Cardv2 from '../cardv2/Cardv2';
-import style from './Carousel.module.css';
+import style from "./CarouselMovil.module.css";
 import der from '../../assets/der.svg';
 import izq from '../../assets/izq.svg';
+import CardApp from '../cardApp/CardApp';
 
-const Carousel = ({ cards, cardsPerPage, setProject }) => {
+const CarouselMovil = ({ cards, cardsPerPage, setProject }) => {
   const [currentPage, setCurrentPage] = useState(0);
   const totalPages = Math.ceil(cards.length / cardsPerPage);
   const handlePrevClick = () => {
@@ -42,7 +42,7 @@ const Carousel = ({ cards, cardsPerPage, setProject }) => {
       <div className={style.carousel}>
         {visibleCards.map((card, index) => (
           <div key={index} className={style.carouselCard}>
-            <Cardv2
+            <CardApp
               setProject={setProject}
               key={index}
               id={card.id}
@@ -62,4 +62,4 @@ const Carousel = ({ cards, cardsPerPage, setProject }) => {
   );
 };
 
-export default Carousel;
+export default CarouselMovil;
