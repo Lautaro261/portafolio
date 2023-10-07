@@ -9,7 +9,8 @@ const Cardv2 = ({
   repositorio,
   deploy,
   title,
-  description,
+  shortDescription,
+  longDescription,
   tecnology,
   setProject,
 }) => {
@@ -29,7 +30,8 @@ const Cardv2 = ({
       repositorio,
       deploy,
       title,
-      description,
+      shortDescription,
+      longDescription,
       name,
       tecnology,
     };
@@ -42,7 +44,8 @@ const Cardv2 = ({
       repositorio,
       deploy,
       title,
-      description,
+      shortDescription,
+      longDescription,
       tecnology,
     });
   };
@@ -94,7 +97,7 @@ const Cardv2 = ({
       {/* --------------------------------------------------------------------------------------------------- */}
       <div className={style.textContainer}>
       <h3 className={style.title}>{title}</h3> 
-        <p className={style.description}>{description}</p>
+        <p className={style.description}>{shortDescription}</p>
       </div>
     </div>
   );

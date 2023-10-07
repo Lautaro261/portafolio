@@ -6,7 +6,8 @@ const dataWeb = [
     repositorio: "https://github.com/Lautaro261/paby-PF",
     deploy: "https://front-paby-production.up.railway.app/",
     title: "P A B Y",
-    description: "Plataforma para reservar tus espacios en parquimetros.",
+    shortDescription:'Plataforma para reservar tus espacios en parquimetros.',
+    longDescription: "Desarrollamos una plataforma innovadora para abordar el desafío de encontrar estacionamiento en Colombia. La plataforma permite a los propietarios de parquímetros registrarse y crear áreas de estacionamiento para autos y motocicletas. Los clientes pueden buscar estacionamiento en su ciudad, consultar detalles y disponibilidad, y reservar un espacio en un horario específico. Esto garantiza un lugar de estacionamiento seguro a su llegada. Este proyecto fue un esfuerzo de equipo para abordar un problema común en Colombia.",
     tecnology: {
       front: [
         {
@@ -71,7 +72,8 @@ const dataWeb = [
     repositorio: "https://github.com/Lautaro261/TecnoCAMP",
     deploy: "https://tecno-camp-front-production.up.railway.app/",
     title: "T E C N O C A M P",
-    description: "Proyecto grupal, una Ecommer tech.",
+    shortDescription:'Proyecto grupal, una Ecommer tech.',
+    longDescription: "Dirigí un equipo de 7 miembros en el desarrollo de un e-commerce especializado en productos tecnológicos. Este proyecto cuenta con tres tipos de usuarios: clientes, administradores y superadministradores. Los clientes pueden registrarse mediante correo electrónico o su cuenta de Google, explorar productos con detalles y colores, agregar/quitar productos a favoritos, gestionar el carrito de compras y finalizar compras mediante una pasarela de pago. Los correos de confirmación se envían automáticamente. Los administradores cuentan con un panel de control para gestionar categorías, marcas, productos y supervisar estadísticas de ventas. El superadministrador tiene la capacidad de crear y eliminar administradores.",
     tecnology: {
       front: [
         {
@@ -132,7 +134,8 @@ const dataWeb = [
     repositorio: "https://github.com/Lautaro261/Proyecto-Individual-Pokemon",
     deploy: "deploylink.com",
     title: "P I  P O K E M O N S",
-    description: "Proyecto de consumo de API, con Back y Base de datos.",
+    shortDescription:'Proyecto de consumo de API, con Back y Base de datos.',
+    longDescription: "Desarrollé un emocionante proyecto individual en el programa Henry que implica la interacción con una API de Pokémon. La aplicación permite a los usuarios explorar tarjetas de Pokémon, acceder a detalles específicos y crear nuevos Pokémon que se almacenan en una base de datos dedicada. Ofrece opciones de búsqueda por nombre, filtrado por tipo y ordenación para una experiencia completa.",
     tecnology: {
       front: [
         {

@@ -3,11 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import Detail from "./views/detail/detail";
 import Home from "./views/home/Home";
 import style from "./App.module.css";
-import Card from "./components/card/card";
-import Cardv2 from "./components/cardv2/Cardv2";
-import Carousel from "./components/carousel/Carousel";
-import dataWeb from "./data/projectsWeb";
-import Finish from "./views/finish/Finish";
+
 import CardApp from "./components/cardApp/CardApp";
 import dataMobil from "./data/projectsMobil";
 

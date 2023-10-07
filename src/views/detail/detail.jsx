@@ -7,7 +7,7 @@ const Detail = () => {
   const getProject = window.localStorage.getItem("project");
   const project = JSON.parse(getProject);
 
-  const { name, image, repositorio, deploy, title, description, tecnology } = project;
+  const { name, image, repositorio, deploy, title, tecnology, shortDescription, longDescription } = project;
 
   useEffect(() => {
     console.log(typeof image === "string");
@@ -50,7 +50,7 @@ const Detail = () => {
         </a>
  */}
         <div className={style.description}>
-          <p>{description}</p>
+          <p>{longDescription}</p>
         </div>
 
         <div className={style.containerTechnologies}>

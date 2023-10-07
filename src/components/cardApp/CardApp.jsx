@@ -2,7 +2,7 @@ import style from "./CardApp.module.css";
 import { Link } from "react-router-dom";
 import { useState } from "react"; // Importa useState
 
-const CardApp = ({ id, image, repositorio, title, description }) => {
+const CardApp = ({ id, image, repositorio, title, shortDescription, longDescription}) => {
 
   return (
     <div className={style.containerCard}>
@@ -42,7 +42,7 @@ const CardApp = ({ id, image, repositorio, title, description }) => {
 
       <div className={style.textContainer}>
       <h3 className={style.title}>{title}</h3> 
-        <p className={style.description}>{description}</p>
+        <p className={style.description}>{shortDescription}</p>
       </div>
 
     </div>

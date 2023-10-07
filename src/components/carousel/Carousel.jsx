@@ -51,7 +51,8 @@ const Carousel = ({ cards, cardsPerPage, setProject }) => {
               repositorio={card.repositorio}
               deploy={card.deploy}
               title={card.title}
-              description={card.description}
+              shortDescription={card.shortDescription}
+              longDescription={card.longDescription}
               tecnology={card.tecnology}
             />
           </div>

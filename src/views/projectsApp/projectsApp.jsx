@@ -19,7 +19,8 @@ const ProjectsApp = ()=>{
                     image={p.image} 
                     repositorio={p.repositorio} 
                     title={p.title}
-                    description={p.description}
+                    shortDescription={p.shortDescription}
+                    longDescription={p.longDescription}
                     />
                 )
             })}

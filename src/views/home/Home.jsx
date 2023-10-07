@@ -34,17 +34,17 @@ const Home = ({ setProject }) => {
                   offset={-50}
                   duration={750}
                 >
-                  Proyectos
+                  Proyectos Web
                 </ScrollLink>
               </li>
               <li className={style.item}>
                 <ScrollLink
-                  to="aboutme"
+                  to="projectsMobil"
                   smooth={true}
                   offset={0}
                   duration={750}
                 >
-                  Sobre mi
+                  Proyectos Mobil
                 </ScrollLink>
               </li>
               <li className={style.item}>
