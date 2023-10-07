@@ -24,7 +24,7 @@ const Carousel = ({ cards, cardsPerPage, setProject }) => {
 
 
 
-{/*       <div className={style.carouselButtons}>
+      <div className={style.carouselButtons}>
         <button onClick={handlePrevClick} className={style.prevButton}>
           <img src={izq} alt="Izquierda" className={style.icon}/>
         </button>
@@ -33,7 +33,7 @@ const Carousel = ({ cards, cardsPerPage, setProject }) => {
         <button onClick={handleNextClick} className={style.nextButton}>
           <img src={der} alt="Derecha" className={style.icon}/>
         </button>
-      </div> */}
+      </div>
 
 
 
