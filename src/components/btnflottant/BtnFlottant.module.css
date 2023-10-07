@@ -18,6 +18,7 @@
     border-radius: 100%;
     border: 0.4vw solid #121410;
     cursor: pointer;
+    transition: all 0.2s ease-in-out;
     
   }
 
