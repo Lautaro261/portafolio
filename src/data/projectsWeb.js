@@ -13,11 +13,11 @@ const dataWeb = [
       front: [
         {
           name: "React.js",
-          image: "https://res.cloudinary.com/dmusnfifn/image/upload/v1694701811/portafolio/kl07cfozxxoevkwt2nrm.png",
+          image: "https://res.cloudinary.com/dmusnfifn/image/upload/v1696727971/portafolio/logos/jrkbg0oiy853i3nykvzl.svg",
         },
         {
           name: "Auth0",
-          image: "https://res.cloudinary.com/dmusnfifn/image/upload/v1694701811/portafolio/xy50b08eilrbkxj091ex.png",
+          image: "https://res.cloudinary.com/dmusnfifn/image/upload/v1696728753/portafolio/logos/uuyynp4vpcjnssp9g9bc.svg",
         },
         {
           name: "Redux",
