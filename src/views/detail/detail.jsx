@@ -98,14 +98,14 @@ const Detail = () => {
           )}
 
 
-            {tecnology.back && (
+            {tecnology.base && (
           <div className={style.containerFront}>
               
               
               
               <h3 className={style.titleTechnologies}>Data Base</h3>
             <div className={style.containerImages}>
-              {tecnology.back.map((tec) => (
+              {tecnology.base.map((tec) => (
                 <div className={style.card} key={tec.id}>
                   <img src={tec.image} alt={tec.name} className={style.logo} />
                   <h5 className={style.subTitleTechnologies}>{tec.name}</h5>
