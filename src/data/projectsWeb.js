@@ -25,7 +25,7 @@ const dataWeb = [
         },
         {
           name: "Bootstrap",
-          image: "https://res.cloudinary.com/dmusnfifn/image/upload/v1694701810/portafolio/anlzywatjdg467yrgpdo.png",
+          image: "https://res.cloudinary.com/dmusnfifn/image/upload/v1697164312/portafolio/logos/sxp2t3nz94tt7lr4ysfw.svg",
         },
         /* {
           name: "yup",
