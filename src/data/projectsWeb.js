@@ -21,7 +21,7 @@ const dataWeb = [
         },
         {
           name: "Redux",
-          image: "https://res.cloudinary.com/dmusnfifn/image/upload/v1694701810/portafolio/vnxkjpekeqr88idifpcd.png",
+          image: "https://res.cloudinary.com/dmusnfifn/image/upload/v1697470363/portafolio/logos/xfb3lytssq7ujs2drts0.svg",
         },
         {
           name: "Bootstrap",
@@ -33,35 +33,35 @@ const dataWeb = [
         }, */
         {
           name: "Cloudinary",
-          image: "https://res.cloudinary.com/dmusnfifn/image/upload/v1694701810/portafolio/r8tzt9f0ruquombw1bm3.png",
+          image: "https://res.cloudinary.com/dmusnfifn/image/upload/v1697470363/portafolio/logos/lwxdhf9zllshcpw4glq0.svg",
         },
       ],
       back: [
         {
           name: "Node.js",
-          image: "https://res.cloudinary.com/dmusnfifn/image/upload/v1694701811/portafolio/qugffohful5mnjpdsmyd.png",
+          image: "https://res.cloudinary.com/dmusnfifn/image/upload/v1697470363/portafolio/logos/zcgajwk3fuidn4ducaxd.svg",
         },
         {
           name: "Express",
-          image: "https://res.cloudinary.com/dmusnfifn/image/upload/v1694701810/portafolio/fdr0h0glrurcdwmjwsmy.png",
+          image: "https://res.cloudinary.com/dmusnfifn/image/upload/v1697470364/portafolio/logos/crz5grxxqha7kwrjd65u.svg",
         },
         {
           name: "Sequelize",
-          image: "https://res.cloudinary.com/dmusnfifn/image/upload/v1694701811/portafolio/izdhgbxoh8gg1t4dybu2.png",
+          image: "https://res.cloudinary.com/dmusnfifn/image/upload/v1697470362/portafolio/logos/rkokxb1mgxhiayjbdopm.svg",
         },
         {
           name: "Mercado Pago",
-          image: "https://res.cloudinary.com/dmusnfifn/image/upload/v1694701810/portafolio/w6xnglkxwmkzby8lqpup.png",
+          image: "https://res.cloudinary.com/dmusnfifn/image/upload/v1697470365/portafolio/logos/vzbhsvy3i3aodrcexogb.svg",
         },
         {
           name: "Nodemailer",
-          image: "https://res.cloudinary.com/dmusnfifn/image/upload/v1694701811/portafolio/gsa9305gzygmhmnewcvf.png",
+          image: "https://res.cloudinary.com/dmusnfifn/image/upload/v1697470364/portafolio/logos/fzoh7c5ezqsv0f2k0srw.svg",
         },
       ],
       base: [
         {
           name: "PostgreSQL",
-          image: "https://res.cloudinary.com/dmusnfifn/image/upload/v1694701811/portafolio/vdrhf77nilkmpykzlmyg.png",
+          image: "https://res.cloudinary.com/dmusnfifn/image/upload/v1697470363/portafolio/logos/yd3ktngqa2zfpzbsx2fk.svg",
         },
       ],
     },
@@ -80,51 +80,51 @@ const dataWeb = [
       front: [
         {
           name: "React.js",
-          image: "",
+          image: "https://res.cloudinary.com/dmusnfifn/image/upload/v1696727971/portafolio/logos/jrkbg0oiy853i3nykvzl.svg",
         },
         {
           name: "Auth0",
-          image: "",
+          image: "https://res.cloudinary.com/dmusnfifn/image/upload/v1696728753/portafolio/logos/uuyynp4vpcjnssp9g9bc.svg",
         },
         {
           name: "Redux Toolkit",
-          image: "",
+          image: "https://res.cloudinary.com/dmusnfifn/image/upload/v1697470363/portafolio/logos/xfb3lytssq7ujs2drts0.svg",
         },
         {
           name: "Ant-D",
-          image: "",
+          image: "https://res.cloudinary.com/dmusnfifn/image/upload/v1697470363/portafolio/logos/d21zug5yacoesiz7ulfk.svg",
         },
         {
           name: "Cloudinary",
-          image: "",
+          image: "https://res.cloudinary.com/dmusnfifn/image/upload/v1697470363/portafolio/logos/lwxdhf9zllshcpw4glq0.svg",
         },
       ],
       back: [
         {
           name: "Node.js",
-          image: "",
+          image: "https://res.cloudinary.com/dmusnfifn/image/upload/v1697470363/portafolio/logos/zcgajwk3fuidn4ducaxd.svg",
         },
         {
           name: "Express",
-          image: "",
+          image: "https://res.cloudinary.com/dmusnfifn/image/upload/v1697470364/portafolio/logos/crz5grxxqha7kwrjd65u.svg",
         },
         {
           name: "Sequelize",
-          image: "",
+          image: "https://res.cloudinary.com/dmusnfifn/image/upload/v1697470362/portafolio/logos/rkokxb1mgxhiayjbdopm.svg",
         },
         {
           name: "Mercado Pago",
-          image: "",
+          image: "https://res.cloudinary.com/dmusnfifn/image/upload/v1697470365/portafolio/logos/vzbhsvy3i3aodrcexogb.svg",
         },
         {
           name: "Nodemailer",
-          image: "",
+          image: "https://res.cloudinary.com/dmusnfifn/image/upload/v1697470364/portafolio/logos/fzoh7c5ezqsv0f2k0srw.svg",
         },
       ],
       base: [
         {
           name: "PostgreSQL",
-          image: "",
+          image: "https://res.cloudinary.com/dmusnfifn/image/upload/v1697470363/portafolio/logos/yd3ktngqa2zfpzbsx2fk.svg",
         },
       ],
     },
@@ -143,31 +143,31 @@ const dataWeb = [
       front: [
         {
           name: "React.js",
-          image: "",
+          image: "https://res.cloudinary.com/dmusnfifn/image/upload/v1696727971/portafolio/logos/jrkbg0oiy853i3nykvzl.svg",
         },
         {
           name: "Redux",
-          image: "",
+          image: "https://res.cloudinary.com/dmusnfifn/image/upload/v1697470363/portafolio/logos/xfb3lytssq7ujs2drts0.svg",
         },
       ],
       back: [
         {
           name: "Node.js",
-          image: "",
+          image: "https://res.cloudinary.com/dmusnfifn/image/upload/v1697470363/portafolio/logos/zcgajwk3fuidn4ducaxd.svg",
         },
         {
           name: "Express",
-          image: "",
+          image: "https://res.cloudinary.com/dmusnfifn/image/upload/v1697470364/portafolio/logos/crz5grxxqha7kwrjd65u.svg",
         },
         {
           name: "Sequelize",
-          image: "",
+          image: "https://res.cloudinary.com/dmusnfifn/image/upload/v1697470362/portafolio/logos/rkokxb1mgxhiayjbdopm.svg",
         },
       ],
       base: [
         {
           name: "PostgreSQL",
-          image: "",
+          image: "https://res.cloudinary.com/dmusnfifn/image/upload/v1697470363/portafolio/logos/yd3ktngqa2zfpzbsx2fk.svg",
         },
       ],
     },

@@ -11,7 +11,7 @@ const dataMobil=[
             front:[
                 {
                     name:'react native',
-                    image:'',
+                    image:'https://res.cloudinary.com/dmusnfifn/image/upload/v1696727971/portafolio/logos/jrkbg0oiy853i3nykvzl.svg',
                 },
             ],
         }
@@ -28,7 +28,7 @@ const dataMobil=[
             front:[
                 {
                     name:'react native',
-                    image:'',
+                    image:'https://res.cloudinary.com/dmusnfifn/image/upload/v1696727971/portafolio/logos/jrkbg0oiy853i3nykvzl.svg',
                 },
             ],
         }
@@ -46,7 +46,7 @@ const dataMobil=[
             front:[
                 {
                     name:'react native',
-                    image:'',
+                    image:'https://res.cloudinary.com/dmusnfifn/image/upload/v1696727971/portafolio/logos/jrkbg0oiy853i3nykvzl.svg',
                 },
                 
             ],
@@ -64,7 +64,7 @@ const dataMobil=[
             front:[
                 {
                     name:'react native',
-                    image:'',
+                    image:'https://res.cloudinary.com/dmusnfifn/image/upload/v1696727971/portafolio/logos/jrkbg0oiy853i3nykvzl.svg',
                 },
                 
             ],
