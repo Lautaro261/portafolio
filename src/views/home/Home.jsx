@@ -71,6 +71,12 @@ const Home = ({ setProject }) => {
           </div>
         </Element>
 
+        <Element name="aboutme">
+          <div className={style.content}>
+            <AboutMe className={style.contentHeader} />
+          </div>
+        </Element>
+
         <Element name="projects">
           <div className={style.content}>
             <ProjectsWeb
@@ -95,11 +101,11 @@ const Home = ({ setProject }) => {
           </div>
         </Element>
 
-        {/* <Element name="aboutme">
-          <div className={style.content}>
-            <AboutMe className={style.contentHeader} setProject={setProject}/>
+        <Element name="footer">
+          <div className={`${style.content} ${style.banner}`}>
+            <AboutMe className={style.contentHeader} />
           </div>
-        </Element> */}{/* si va a ir pero antes de proyectos web, mostrar habilidades blandas y duras */}
+        </Element>{/* si va a ir pero antes de proyectos web, mostrar habilidades blandas y duras */}
 
 
 
