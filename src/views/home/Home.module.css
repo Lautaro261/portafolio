@@ -68,14 +68,14 @@
 
 @media only screen and (max-width: 768px) {
 
-  .containerNavBar{
-    /* height: 6vw */ 
-  }
+ /*  .containerNavBar{
+    /* height: 6vw  
+  } */
 
 
-  .navBar {
+ /*  .navBar {
 
-  }
+  } */
 
   .containerList{
     width: 80%;
