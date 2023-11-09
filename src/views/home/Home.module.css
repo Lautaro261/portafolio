@@ -67,16 +67,95 @@
 }
 
 @media only screen and (max-width: 768px) {
+
+  .containerNavBar{
+    /* height: 6vw */ 
+  }
+
+
   .navBar {
+
+  }
+
+  .containerList{
+    width: 80%;
+
+  }
+
+  .item{
+    font-size: 2.1vw;
+  }
+
+  .content {
     max-width: 100vw;
+    max-height: 60vw;
     font-size: 1vw;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+/* @media only screen and (max-width: 430px) {
+
+  .containerNavBar{
+    /* height: 6vw  
+  }
+
+
+  .navBar {
+
+  }
+
+  .containerList{
+
+  }
+
+  .item{
+    font-size: 2.1vw;
   }
 
   .content {
     max-width: 100vw;
     font-size: 1vw;
   }
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+} */
 
 
 /* .containerBtn{

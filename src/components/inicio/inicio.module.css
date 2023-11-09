@@ -5,7 +5,7 @@
   font-size: 4.5vw;
   margin-top: 0px;
   margin-bottom: 0px;
-  line-height: 4.5vw;
+  line-height: 5vw;
 }
 
 .black {
@@ -15,7 +15,7 @@
   font-size: 4.5vw;
   margin-top: 0px;
   margin-bottom: 0px;
-  line-height: 4.5vw;
+  line-height: 5vw;
 }
 .text {
   border: 1px solid red;
@@ -45,8 +45,8 @@
 
 .parent{
   display: flex;
-  width: 100vw;
-  height: 93vh;
+  width: 100%;
+  height: 100%;
   
 }
 
@@ -69,6 +69,12 @@
   margin-top: 3vw;
   display: flex;
   justify-content: center;
+}
+.img {
+  margin-top: 9vw;
+  max-height: 25vw;
+  width: auto;
+  border: 5px solid #121410;
 }
 
 /* .parent {
@@ -95,7 +101,39 @@
   justify-content: center;
 } */
 
-.img {
-  max-width: 40vw;
-  border: 5px solid #121410;
+
+
+
+@media only screen and (max-width: 768px) {
+
+  .div1{
+    margin-left: 9vw;
+    margin-top: 10vw;
+    margin-right: 9vw;
+    width: 31vw;
+    height: 35vw;
+    
+  }
+
+  .div2{
+  margin-top: 10vh;
+  width: 42vw;
+  height: 20vh;
+  }
+  
+  .div3{
+    margin-top: 6vw;
+  }
+
+  .conoceme{
+    height: 3vw;
+    padding-top: 0.2vw;
+  }
+  .img {
+    margin-top: 17vw;
+    /* max-width: 35vw; */
+    max-height: 25vw;
+    width: auto;
+    border: 5px solid #121410;
+  }
 }

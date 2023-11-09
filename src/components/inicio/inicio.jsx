@@ -14,9 +14,9 @@ const Inicio = () => {
       <button className={style.conoceme}>PROYECTOS ▼ </button>
       </div>
       </div>
-      <div className={style.div2}>
+      {/* <div className={style.div2}> */}
         <img className={style.img} src='https://res.cloudinary.com/dmusnfifn/image/upload/v1693926649/portafolio/tt0gurdhau3obdmi6gdk.jpg'/>
-      </div>
+      {/* </div> */}
     </div>
   );
 };
