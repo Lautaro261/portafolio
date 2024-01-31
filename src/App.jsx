@@ -25,7 +25,7 @@ function App() {
         path="/projectsmobil/detail/:id"
         element={<Detail project={project} />}
       />
-      {/* 5 Detail */}
+      {/* 5 Detail Estoy haciendo una prueba*/}
 
       <Route 
         path="/test"
